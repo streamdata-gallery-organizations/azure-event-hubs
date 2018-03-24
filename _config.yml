@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: azure-event-hubs.api.streamdata.gallery
+title: Streamdata Gallery Azure Event Hubs
+url: azure-event-hubs.streamdata.gallery
 tag: Azure Event Hubs
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: azure-event-hubs
 github_branch: master
 collections:
