@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Event Hubs
-x-complete: 1
+x-complete: 0
 info:
-  title: EventHubManagementClient
-  description: azure-event-hubs-client
+  title: Azure Event Hubs API Event Hubs Create Or Update Authorization Rule
+  description: Creates or updates an AuthorizationRule for the specified Event Hub.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -331,126 +331,17 @@ paths:
           description: OK
       tags:
       - Event Hubs Authorization Rule
-    get:
-      summary: Event Hubs Get Authorization Rule
-      description: Gets an AuthorizationRule for an Event Hub by rule name.
-      operationId: EventHubs_GetAuthorizationRule
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulename-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Event Hubs Authorization Rule
-    delete:
-      summary: Event Hubs Delete Authorization Rule
-      description: Deletes an Event Hub AuthorizationRule.
-      operationId: EventHubs_DeleteAuthorizationRule
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulename-delete
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Event Hubs Authorization Rule
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/eventhubs/{eventHubName}/authorizationRules/{authorizationRuleName}/ListKeys
-  : post:
-      summary: Event Hubs List Keys
-      description: Gets the ACS and SAS connection strings for the Event Hub.
-      operationId: EventHubs_ListKeys
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulenamelistkeys-post
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Event Hubs Keys
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/eventhubs/{eventHubName}/authorizationRules/{authorizationRuleName}/regenerateKeys
-  : post:
-      summary: Event Hubs Regenerate Keys
-      description: Regenerates the ACS and SAS connection strings for the Event Hub.
-      operationId: EventHubs_RegenerateKeys
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulenameregeneratekeys-post
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: Parameters supplied to regenerate the AuthorizationRule Keys
-          (PrimaryKey/SecondaryKey)
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Event Hubs Regenerate Keys
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/eventhubs/{eventHubName}/consumergroups/{consumerGroupName}
-  : put:
-      summary: Consumer Groups Create Or Update
-      description: Creates or updates an Event Hubs consumer group as a nested resource
-        within a Namespace.
-      operationId: ConsumerGroups_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-put
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: Parameters supplied to create or update a consumer group resource
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Consumer Groups
-    delete:
-      summary: Consumer Groups Delete
-      description: Deletes a consumer group from the specified Event Hub and resource
-        group.
-      operationId: ConsumerGroups_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-delete
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Consumer Groups
-    get:
-      summary: Consumer Groups Get
-      description: Gets a description for the specified consumer group.
-      operationId: ConsumerGroups_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Consumer Groups
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/eventhubs/{eventHubName}/consumergroups
-  : get:
-      summary: Consumer Groups List All
-      description: Gets all the consumer groups in a Namespace. An empty feed is returned
-        if no consumer group exists in the Namespace.
-      operationId: ConsumerGroups_ListAll
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameconsumergroups-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Consumer Groups All
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure Event Hubs
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/apis.md
 specificationVersion: "0.14"
 apis:
@@ -24,9 +24,9 @@ apis:
   tags: Operations
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/providersmicrosofteventhuboperations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/providersmicrosoft-eventhuboperations-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/providersmicrosofteventhuboperations-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/providersmicrosoft-eventhuboperations-get-openapi.md
 - name: Azure Event Hubs API Namespaces Check Name Availability
   x-api-slug: azure-event-hubs-api
   description: Check the give Namespace name availability.
@@ -36,7 +36,7 @@ apis:
   tags: Namespaces Name Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidprovidersmicrosofteventhubchecknameavailability-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidprovidersmicrosoft-eventhubchecknameavailability-post-openapi.md
 - name: Azure Event Hubs API Namespaces List By Subscription
   x-api-slug: azure-event-hubs-api
   description: Lists all the available Namespaces within a subscription, irrespective
@@ -47,9 +47,9 @@ apis:
   tags: Namespaces Subscription
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidprovidersmicrosofteventhubnamespaces-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidprovidersmicrosoft-eventhubnamespaces-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidprovidersmicrosofteventhubnamespaces-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidprovidersmicrosoft-eventhubnamespaces-get-openapi.md
 - name: Azure Event Hubs API Namespaces List By Resource Group
   x-api-slug: azure-event-hubs-api
   description: Lists the available Namespaces within a resource group.
@@ -59,9 +59,9 @@ apis:
   tags: Namespaces Resource Group
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespaces-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespaces-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespaces-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespaces-get-openapi.md
 - name: Azure Event Hubs API Namespaces Create Or Update
   x-api-slug: azure-event-hubs-api
   description: Creates or updates a namespace. Once created, this namespace's resource
@@ -72,7 +72,7 @@ apis:
   tags: Namespaces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacename-put-openapi.md
 - name: Azure Event Hubs API Namespaces Delete
   x-api-slug: azure-event-hubs-api
   description: Deletes an existing namespace. This operation also removes all associated
@@ -83,9 +83,9 @@ apis:
   tags: Namespaces
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacename-delete-openapi.md
 - name: Azure Event Hubs API Namespaces Get
   x-api-slug: azure-event-hubs-api
   description: Gets the description of the specified namespace.
@@ -95,9 +95,9 @@ apis:
   tags: Namespaces
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacename-get-openapi.md
 - name: Azure Event Hubs API Namespaces Update
   x-api-slug: azure-event-hubs-api
   description: Creates or updates a namespace. Once created, this namespace's resource
@@ -108,7 +108,7 @@ apis:
   tags: Namespaces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacename-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacename-patch-openapi.md
 - name: Azure Event Hubs API Namespaces List Authorization Rules
   x-api-slug: azure-event-hubs-api
   description: Gets a list of authorization rules for a Namespace.
@@ -118,9 +118,9 @@ apis:
   tags: Namespaces Authorization Rules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameauthorizationrules-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrules-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameauthorizationrules-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrules-get-openapi.md
 - name: Azure Event Hubs API Namespaces Create Or Update Authorization Rule
   x-api-slug: azure-event-hubs-api
   description: Creates or updates an AuthorizationRule for a Namespace.
@@ -130,7 +130,7 @@ apis:
   tags: Namespaces Authorization Rule
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-put-openapi.md
 - name: Azure Event Hubs API Namespaces Delete Authorization Rule
   x-api-slug: azure-event-hubs-api
   description: Deletes an AuthorizationRule for a Namespace.
@@ -140,9 +140,9 @@ apis:
   tags: Namespaces Authorization Rule
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-delete-openapi.md
 - name: Azure Event Hubs API Namespaces Get Authorization Rule
   x-api-slug: azure-event-hubs-api
   description: Gets an AuthorizationRule for a Namespace by rule name.
@@ -152,9 +152,9 @@ apis:
   tags: Namespaces Authorization Rule
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrulesauthorizationrulename-get-openapi.md
 - name: Azure Event Hubs API Namespaces List Keys
   x-api-slug: azure-event-hubs-api
   description: Gets the primary and secondary connection strings for the Namespace.
@@ -164,9 +164,9 @@ apis:
   tags: Namespaces Keys
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameauthorizationrulesauthorizationrulenamelistkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrulesauthorizationrulenamelistkeys-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameauthorizationrulesauthorizationrulenamelistkeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrulesauthorizationrulenamelistkeys-post-openapi.md
 - name: Azure Event Hubs API Namespaces Regenerate Keys
   x-api-slug: azure-event-hubs-api
   description: Regenerates the primary or secondary connection strings for the specified
@@ -177,7 +177,7 @@ apis:
   tags: Namespaces Regenerate Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameauthorizationrulesauthorizationrulenameregeneratekeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameauthorizationrulesauthorizationrulenameregeneratekeys-post-openapi.md
 - name: Azure Event Hubs API Event Hubs List All
   x-api-slug: azure-event-hubs-api
   description: Gets all the Event Hubs in a Namespace.
@@ -187,7 +187,7 @@ apis:
   tags: Event Hubs All
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubs-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubs-get-openapi.md
 - name: Azure Event Hubs API Event Hubs Create Or Update
   x-api-slug: azure-event-hubs-api
   description: Creates or updates a new Event Hub as a nested resource within a Namespace.
@@ -197,7 +197,7 @@ apis:
   tags: Event Hubs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubname-put-openapi.md
 - name: Azure Event Hubs API Event Hubs Delete
   x-api-slug: azure-event-hubs-api
   description: Deletes an Event Hub from the specified Namespace and resource group.
@@ -207,7 +207,7 @@ apis:
   tags: Event Hubs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubname-delete-openapi.md
 - name: Azure Event Hubs API Event Hubs Get
   x-api-slug: azure-event-hubs-api
   description: Gets an Event Hubs description for the specified Event Hub.
@@ -217,7 +217,7 @@ apis:
   tags: Event Hubs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubname-get-openapi.md
 - name: Azure Event Hubs API Event Hubs List Authorization Rules
   x-api-slug: azure-event-hubs-api
   description: Gets the authorization rules for an Event Hub.
@@ -227,9 +227,9 @@ apis:
   tags: Event Hubs Authorization Rules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrules-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrules-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrules-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrules-get-openapi.md
 - name: Azure Event Hubs API Event Hubs Create Or Update Authorization Rule
   x-api-slug: azure-event-hubs-api
   description: Creates or updates an AuthorizationRule for the specified Event Hub.
@@ -239,7 +239,7 @@ apis:
   tags: Event Hubs Authorization Rule
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulename-put-openapi.md
 - name: Azure Event Hubs API Event Hubs Get Authorization Rule
   x-api-slug: azure-event-hubs-api
   description: Gets an AuthorizationRule for an Event Hub by rule name.
@@ -249,9 +249,9 @@ apis:
   tags: Event Hubs Authorization Rule
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulename-get-openapi.md
 - name: Azure Event Hubs API Event Hubs Delete Authorization Rule
   x-api-slug: azure-event-hubs-api
   description: Deletes an Event Hub AuthorizationRule.
@@ -261,9 +261,9 @@ apis:
   tags: Event Hubs Authorization Rule
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulename-delete-openapi.md
 - name: Azure Event Hubs API Event Hubs List Keys
   x-api-slug: azure-event-hubs-api
   description: Gets the ACS and SAS connection strings for the Event Hub.
@@ -273,9 +273,9 @@ apis:
   tags: Event Hubs Keys
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulenamelistkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulenamelistkeys-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulenamelistkeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulenamelistkeys-post-openapi.md
 - name: Azure Event Hubs API Event Hubs Regenerate Keys
   x-api-slug: azure-event-hubs-api
   description: Regenerates the ACS and SAS connection strings for the Event Hub.
@@ -285,7 +285,7 @@ apis:
   tags: Event Hubs Regenerate Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulenameregeneratekeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameauthorizationrulesauthorizationrulenameregeneratekeys-post-openapi.md
 - name: Azure Event Hubs API Consumer Groups Create Or Update
   x-api-slug: azure-event-hubs-api
   description: Creates or updates an Event Hubs consumer group as a nested resource
@@ -296,7 +296,7 @@ apis:
   tags: Consumer Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-put-openapi.md
 - name: Azure Event Hubs API Consumer Groups Delete
   x-api-slug: azure-event-hubs-api
   description: Deletes a consumer group from the specified Event Hub and resource
@@ -307,9 +307,9 @@ apis:
   tags: Consumer Groups
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-delete-openapi.md
 - name: Azure Event Hubs API Consumer Groups Get
   x-api-slug: azure-event-hubs-api
   description: Gets a description for the specified consumer group.
@@ -319,9 +319,9 @@ apis:
   tags: Consumer Groups
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameconsumergroupsconsumergroupname-get-openapi.md
 - name: Azure Event Hubs API Consumer Groups List All
   x-api-slug: azure-event-hubs-api
   description: Gets all the consumer groups in a Namespace. An empty feed is returned
@@ -332,9 +332,9 @@ apis:
   tags: Consumer Groups All
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameconsumergroups-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameconsumergroups-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofteventhubnamespacesnamespacenameeventhubseventhubnameconsumergroups-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-event-hubs/master/_listings/azure-event-hubs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-eventhubnamespacesnamespacenameeventhubseventhubnameconsumergroups-get-openapi.md
 - name: Azure Event Hubs API
   x-api-slug: azure-event-hubs-api
   description: Azure Event Hubs is a hyper-scale telemetry ingestion service that
